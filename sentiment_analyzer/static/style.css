@@ -1,0 +1,154 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.card {
+    border-radius: 10px;
+}
+
+textarea {
+    resize: none;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #ffffff; /* White background */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for a modern look */
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 2.5rem;
+    color: #000000; /* Black title */
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    color: #666666; /* Grey subtitle */
+}
+
+.main-content {
+    margin-top: 20px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.text-area {
+    width: 100%;
+    padding: 15px;
+    font-size: 1rem;
+    border: 1px solid #cccccc; /* Light grey border */
+    border-radius: 5px;
+    resize: none;
+    background-color: #f9f9f9; /* Slightly off-white background */
+    color: #333333; /* Dark grey text */
+}
+
+.text-area:focus {
+    outline: none;
+    border-color: #000000; /* Black border on focus */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.button-group {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+
+.result {
+    margin-top: 20px;
+    padding: 20px;
+    background: #f9f9f9; /* Slightly off-white background */
+    border: 1px solid #cccccc; /* Light grey border */
+    border-radius: 5px;
+}
+
+.result-title {
+    font-size: 1.8rem;
+    color: #000000; /* Black title */
+    margin-bottom: 10px;
+}
+
+.result-text {
+    font-size: 1rem;
+    color: #333333; /* Dark grey text */
+    margin-bottom: 5px;
+}
+
+.block-title {
+    font-size: 1.5rem; /* Slightly larger font size */
+    font-weight: bold; /* Make the text bold */
+    color: #000000; /* Pure black for better contrast */
+    border-bottom: 2px solid #333333; /* Add a subtle underline for separation */
+    padding-bottom: 5px; /* Add spacing below the title */
+    margin-bottom: 15px; /* Add spacing between the title and the content */
+    transition: color 0.3s ease, border-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.block-title:hover {
+    color: hsl(0, 0%, 78%); /* Change text color to green on hover */
+    border-color: hsl(0, 0%, 100%); /* Change underline color to green on hover */
+}
+
+
+
+/* Modern styles for the Analyze button */
+.analyze-button {
+    background-color: #818181; /* Green button */
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.analyze-button:hover {
+    background-color: hsl(0, 0%, 92%); /* Slightly darker green on hover */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+    transform: translateY(-2px); /* Lift effect */
+}
+
+/* Modern styles for the Reset button */
+.reset-button {
+    background-color: hsl(0, 0%, 15%); /* Red button */
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.reset-button:hover {
+    background-color: hsl(0, 2%, 34%); /* Slightly darker red on hover */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Stronger shadow on hover */
+    transform: translateY(-2px); /* Lift effect */
+}
+
+/* Button group alignment */
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
